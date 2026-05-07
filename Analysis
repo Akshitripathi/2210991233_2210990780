@@ -1,0 +1,73 @@
+
+This research focuses on understanding how Artificial Intelligence (AI) can be used to detect stress and monitor mental health using physiological biosignals. 
+Instead of implementing a new model, the study performs a detailed analysis of existing datasets, research work, and machine learning techniques in this domain.
+
+1. Dataset-Based Analysis
+
+The study analyzed three major publicly available datasets:
+- Mental Health Monitoring Dataset (MHMD)
+- Wearable Device Dataset During Stress & Exercise (WDDS)
+- Psychological State Identification Dataset (PSID)
+
+From the dataset analysis, the following observations were made:
+
+- Physiological signals such as heart rate, electrodermal activity (EDA), respiration, and movement show clear variations under stress conditions.
+- Time-series data plays a critical role in identifying how stress evolves over time.
+- Labeled datasets (stress, neutral, activity) enable supervised machine learning approaches for stress classification.
+- Multimodal datasets (multiple biosignals together) provide more reliable insights compared to single-signal datasets.
+
+2. Biosignal Behavior Analysis
+
+The research identified consistent patterns across different biosignals:
+
+- Heart Rate (HR): Increases during stress due to activation of the autonomic nervous system.
+- Electrodermal Activity (EDA): Increases with emotional arousal and stress.
+- Respiration Rate: Becomes faster or irregular under stress.
+- EEG Signals: Show variations in brain activity during cognitive and emotional stress.
+
+These signals collectively reflect the body's physiological response to stress, making them reliable indicators for detection.
+
+3. Machine Learning Analysis
+
+The study reviewed commonly used machine learning algorithms for stress detection:
+
+- Support Vector Machine (SVM): Performs well on high-dimensional biosignal data.
+- Random Forest (RF): Provides high accuracy and handles noise effectively.
+- k-Nearest Neighbors (kNN): Simple but sensitive to noise.
+- Convolutional Neural Networks (CNN): Achieve the highest accuracy due to automatic feature extraction.
+
+Key finding:
+→ Models using multiple biosignals (multimodal approach) consistently outperform those using a single signal.
+
+4. Comparative Insights
+
+- Accuracy of models improves significantly when combining ECG, EDA, and respiration signals.
+- Deep learning models outperform traditional ML methods in complex datasets.
+- Feature extraction and preprocessing play a crucial role in improving model performance.
+
+5. Challenges Identified
+
+The analysis also highlights several real-world challenges:
+
+- Noise in wearable sensor data affects accuracy.
+- Individual differences in stress response make generalization difficult.
+- Lack of standardized datasets limits consistency across studies.
+- Privacy concerns arise due to continuous monitoring of personal physiological data.
+
+6. Key Findings
+
+- Stress can be objectively detected using physiological biosignals instead of subjective surveys.
+- AI-based systems can identify hidden patterns in biosignal data.
+- Multimodal and time-series approaches significantly improve detection accuracy.
+- Wearable devices enable real-time stress monitoring.
+
+7. Overall Conclusion from Analysis
+
+The analysis demonstrates that AI combined with biosignals has strong potential for real-time mental health monitoring. 
+However, improvements are required in data quality, personalization, and ethical handling of user data.
+
+Future systems should focus on:
+- Personalized stress detection models
+- Improved sensor accuracy
+- Integration with mobile and healthcare applications
+- Strong privacy-preserving mechanisms
